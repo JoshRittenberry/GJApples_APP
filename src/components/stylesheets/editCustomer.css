@@ -1,0 +1,34 @@
+.editcustomer {
+    min-height: 90vh;
+}
+
+.editcustomer_header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.editcustomer_body {
+    width: 90%;
+    max-width: 400px;
+    /* width: 400px; */
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.editcustomer_footer {
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.editcustomer_footer_button {
+    width: 150px;
+    background-color: black;
+}
+
+.editcustomer_footer_button:hover {
+    background-color: #1f98f4;
+}

@@ -1,0 +1,95 @@
+/* Main Page */
+.orderpickerhome {
+    min-height: 90vh;
+    margin-bottom: 20px;
+}
+
+.orderpickerhome_header {
+    margin: 20px;
+}
+
+.orderpickerhome_header h1 {
+    text-align: center;
+}
+
+.orderpickerhome_body {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+/* Assignment Section */
+.orderpickerhome_body_assignment {
+    width: 55%;
+    text-align: center;
+}
+
+.orderpickerhome_body_assignment_empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderpickerhome_body_assignment_header {
+    margin: auto;
+    text-align: left;
+    color: black;
+}
+
+.orderpickerhome_body_assignment_header_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderpickerhome_body_assignment_header_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderpickerhome_body_assignment_body_button_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.orderpickerhome_body_assignment_body_button_container Button {
+    background-color: black;
+}
+
+.orderpickerhome_body_assignment_body_button_container Button:hover {
+    background-color: #1f98f4;
+}
+
+/* Open Orders Section */
+.orderpickerhome_body_list {
+    width: 40%;
+    text-align: center;
+}
+
+.orderpickerhome_body_list Button {
+    background-color: black;
+}
+
+.orderpickerhome_body_list Button:hover {
+    background-color: #1f98f4;
+}
+
+/* Conditional Screen Stuff */
+
+@media screen and (max-width: 1200px) {
+    .orderpickerhome_body {
+        display: block;
+        width: 90%;
+    }
+
+    .orderpickerhome_body_assignment {
+        margin: auto;
+        width: 100%;
+    }
+
+    .orderpickerhome_body_list {
+        margin: auto;
+        width: 100%;
+    }
+}

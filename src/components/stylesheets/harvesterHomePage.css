@@ -1,0 +1,107 @@
+/* Main Page */
+.harvesterhome {
+    min-height: 90vh;
+    margin-bottom: 20px;
+}
+
+.harvesterhome_header {
+    margin: 20px;
+}
+
+.harvesterhome_header h1 {
+    text-align: center;
+}
+
+.harvesterhome_body {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+/* Assignment Section */
+.harvesterhome_body_assignment {
+    width: 55%;
+    text-align: center;
+}
+
+.harvesterhome_body_assignment_empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.harvesterhome_body_assignment_header {
+    margin: auto;
+    text-align: left;
+    color: black;
+}
+
+.harvesterhome_body_assignment_header_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.harvesterhome_body_assignment_header_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.harvesterhome_body_assignment_body_input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.harvesterhome_body_assignment_body_input Input {
+    width: 20%;
+}
+
+.harvesterhome_body_assignment_body_button_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.harvesterhome_body_assignment_body_button_container Button {
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: black;
+}
+
+.harvesterhome_body_assignment_body_button_container Button:hover {
+    background-color: #1f98f4;
+}
+
+/* Open Orders Section */
+.harvesterhome_body_list {
+    width: 40%;
+    text-align: center;
+}
+
+.harvesterhome_body_list Button {
+    background-color: black;
+}
+
+.harvesterhome_body_list Button:hover {
+    background-color: #1f98f4;
+}
+
+/* Conditional Screen Stuff */
+
+@media screen and (max-width: 1200px) {
+    .harvesterhome_body {
+        display: block;
+        width: 90%;
+    }
+
+    .harvesterhome_body_assignment {
+        margin: auto;
+        width: 100%;
+    }
+
+    .harvesterhome_body_list {
+        margin: auto;
+        width: 100%;
+    }
+}

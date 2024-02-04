@@ -1,0 +1,54 @@
+.vieworder {
+    max-width: 1120px;
+    width: 90%;
+    margin: 20px auto;
+    height: 90vh;
+    overflow: auto;
+}
+
+.vieworder_header {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    color: black;
+}
+
+.vieworder_header_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vieworder_header_top_backbutton {
+    color: black;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.5em;
+}
+
+.vieworder_header_top_backbutton:hover {
+    color: #1f98f4;
+}
+
+.vieworder_header_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vieworder_body {
+    width: 70%;
+    margin: auto;
+}
+
+.vieworder_body_buttons {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.vieworder_body_buttons Button {
+    margin-left: 1%;
+    background-color: black;
+}
+
+.vieworder_body_buttons Button:hover {
+    background-color: #1f98f4;
+}

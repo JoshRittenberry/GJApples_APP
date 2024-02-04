@@ -1,0 +1,27 @@
+.newemployee_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.newemployee_footer Button {
+    background-color: black;
+    width: 150px;
+}
+
+.newemployee_footer Button:hover {
+    background-color: #1f98f4;
+}
+
+@media screen and (max-width: 820px) {
+
+    .newemployee_footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newemployee_footer Button {
+        width: 100%;
+    }
+}

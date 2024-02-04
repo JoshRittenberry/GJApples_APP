@@ -1,0 +1,42 @@
+.neworder {
+    margin-top: 20px;
+}
+
+.neworder_header {
+    width: 75%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.neworder_header h1 {
+    display: inline-block;
+}
+
+.neworder_header_inputs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 20%;
+    margin-top: 0.5%;
+}
+
+.neworder_header_inputs Button {
+    background-color: black;
+}
+
+.neworder_header_inputs Button:hover {
+    background-color: #1f98f4;
+}
+
+@media screen and (max-width: 1023px) {
+    .neworder_header_inputs {
+        position: static;
+        top: auto;
+        right: auto;
+        text-align: center;
+        width: 100%;
+        margin-top: 0.5%;
+    }
+}

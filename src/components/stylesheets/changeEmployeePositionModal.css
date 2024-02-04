@@ -1,0 +1,13 @@
+.changeemployeepositionmodal_footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.changeemployeepositionmodal_footer Button {
+    background-color: black;
+    width: 150px;
+}
+
+.changeemployeepositionmodal_footer Button:hover {
+    background-color: #1f98f4;
+}

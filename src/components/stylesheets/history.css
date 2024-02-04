@@ -1,0 +1,259 @@
+.history-container-video {
+    object-fit: cover;
+    /* width: 200%;
+    height: 575%; */
+    position: fixed;
+    z-index: -1;
+}
+
+.history-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    /* overflow: auto; */
+}
+
+.history-container>h1 {
+    color: #fff;
+    font-size: 100px;
+    /* margin-top: -100px; */
+}
+
+.history-container>p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+    .history-container>h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .history-container>h1 {
+        font-size: 50px;
+        /* margin-top: -100px; */
+    }
+
+    .history-container>p {
+        font-size: 30px;
+    }
+}
+
+/* Timeline Stuff */
+
+.timeline {
+    color: white;
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+    /* height: 75%; */
+    overflow: auto;
+}
+
+.timeline-container {
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+}
+
+.timeline-container-textbox-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timeline-container-textbox-info p{
+    width: 60%;
+}
+
+.timeline-container-textbox-info img {
+    width: 35%;
+}
+
+@keyframes movedown {
+    0% {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.timeline-container:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.timeline-container:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.timeline-container:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.timeline-container:nth-child(4) {
+    animation-delay: 3s;
+}
+
+.timeline-container:nth-child(5) {
+    animation-delay: 4s;
+}
+
+.timeline-container:nth-child(6) {
+    animation-delay: 5s;
+}
+
+.timeline-container:nth-child(7) {
+    animation-delay: 6s;
+}
+
+.timeline-container:nth-child(8) {
+    animation-delay: 7s;
+}
+
+.timeline-container-textbox {
+    padding: 20px 30px;
+    background: rgba(0, 0, 0, 0.75);
+    /* background: black; */
+    position: relative;
+    border-radius: 6px;
+}
+
+.left-container {
+    left: 0%;
+}
+
+.right-container {
+    left: 50%;
+}
+
+.left-dot,
+.right-dot {
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+
+.right-dot {
+    left: -20px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: black;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 8s linear forwards;
+}
+
+@keyframes moveline {
+    0% {
+        height: 0%;
+    }
+
+    100% {
+        height: 100%;
+    }
+}
+
+.timeline-container-textbox h2 {
+    font-weight: 600;
+}
+
+.timeline-container-textbox small {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.left-container-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid white;
+    right: -15px;
+}
+
+.right-container-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid white;
+    left: -15px;
+}
+
+.timeline-container-textbox img {
+    width: 150px;
+    height: 100px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .timeline {
+        margin: 50px auto;
+    }
+
+    .timeline::after {
+        left: 31px;
+    }
+
+    .timeline-container {
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+
+    .timeline-container-textbox {
+        font-size: 13px;
+    }
+
+    .timeline-container-textbox small {
+        margin-bottom: 10px;
+    }
+
+    .right-container {
+        left: 0;
+    }
+
+    .left-dot,
+    .right-dot {
+        left: 10px;
+    }
+
+    .left-container-arrow,
+    .right-container-arrow {
+        border-right: 15px solid white;
+        border-left: 0;
+        left: -15px;
+    }
+}

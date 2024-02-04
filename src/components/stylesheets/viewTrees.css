@@ -1,0 +1,70 @@
+.viewtrees {
+    min-height: 90vh;
+    margin-bottom: 20px;
+    width: 90%;
+    margin: 20px auto 20px auto;
+    text-align: center;
+}
+
+.viewtrees_header {
+    width: 90%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.viewtrees_header h1 {
+    display: inline-block;
+}
+
+.viewtrees_header_inputs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 125px;
+    margin-top: 0.5%;
+}
+
+.viewtrees_header_inputs_button {
+    background-color: black;
+    width: 100%;
+}
+
+.viewtrees_body_button {
+    background-color: black;
+    width: 125px;
+}
+
+.viewtrees_body_button:hover,
+.viewtrees_header_inputs_button:hover {
+    background-color: #1f98f4;
+}
+
+.viewtrees_body_pagination {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .viewtrees_body_pagination {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .viewtrees_body_pagination {
+        width: 100%;
+    }
+
+    .viewtrees_header_inputs {
+        position: static;
+        top: auto;
+        right: auto;
+        text-align: center;
+        margin-top: 0.5%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,34 @@
+.editemployee {
+    min-height: 90vh;
+}
+
+.editemployee_header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.editemployee_body {
+    width: 90%;
+    max-width: 400px;
+    /* width: 400px; */
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.editemployee_footer {
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.editemployee_footer_button {
+    width: 150px;
+    background-color: black;
+}
+
+.editemployee_footer_button:hover {
+    background-color: #1f98f4;
+}

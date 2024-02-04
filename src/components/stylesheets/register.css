@@ -1,0 +1,39 @@
+.register-container {
+    min-height: 90vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.register-container>h3 {
+    text-align: center;
+}
+
+.register-container>Label {
+    color: black;
+}
+
+.register-container-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register-container-options>p {
+    margin: 0px;
+}
+
+.register-container-options > Button {
+    background-color: black;
+}
+
+.register-container-options > Button:hover {
+    background-color: #1f98f4;
+}
+
+@media screen and (max-width: 820px) {
+
+    .register-container-options {
+        display: block;
+        text-align: center;
+    }
+}

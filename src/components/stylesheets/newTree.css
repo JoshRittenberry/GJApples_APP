@@ -1,0 +1,35 @@
+.newtree {
+    min-height: 90vh;
+}
+
+.newtree_header {
+    margin-top: 20px;
+}
+
+.newtree_header h1 {
+    text-align: center;
+}
+
+.newtree_body Form {
+    width: 250px;
+    margin: auto;
+}
+
+.newtree_footer {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newtree_footer_button {
+    margin-top: 10px;
+    width: 250px;
+    background-color: black;
+}
+
+.newtree_footer_button:hover {
+    background-color: #1f98f4;
+}
