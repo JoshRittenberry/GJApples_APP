@@ -51,10 +51,10 @@ export const OrderPickerAssignedOrder = ({ loggedInUser, assignedOrder, setOrder
                         <div className="orderpickerhome_body_assignment_header_top">
                             <h3>Order #{assignedOrder.id}</h3>
                         </div>
-                        <h5>Customer #{assignedOrder.customerUserProfileId}</h5>
+                        <h5>Customer: {assignedOrder.customer?.firstName} {assignedOrder.customer?.lastName}</h5>
                         <div className="orderpickerhome_body_assignment_header_bottom">
-                            <h5>Phone: (XXX)-XXX-XXXX</h5>
-                            <h5>Email: xxx@xxxx.com</h5>
+                            {/* <h5>Phone: (XXX)-XXX-XXXX</h5> */}
+                            <h5>Email: {assignedOrder.customer?.email}</h5>
                         </div>
                     </header>
                     <section className="orderpickerhome_body_assignment_body">

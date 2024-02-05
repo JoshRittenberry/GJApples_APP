@@ -27,10 +27,10 @@ export const ViewOrder = ({ loggedInUser }) => {
                             <i className="fa-solid fa-circle-arrow-left"></i>
                         </button>
                     </div>
-                    <h5>Customer #{order.customerUserProfileId}</h5>
+                    <h5>Customer: {order.customer?.firstName} {order.customer?.lastName}</h5>
                     <div className="vieworder_header_bottom">
-                        <h5>Phone: (XXX)-XXX-XXXX</h5>
-                        <h5>Email: xxx@xxxx.com</h5>
+                        {/* <h5>Phone: (XXX)-XXX-XXXX</h5> */}
+                        <h5>Email: {order.customer?.email}</h5>
                     </div>
                 </header>
                 <section className="vieworder_body">

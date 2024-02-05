@@ -73,7 +73,7 @@ export const OrderHistory = ({ loggedInUser }) => {
                                 )}
                                 {screenWidth >= 1260 && (
                                     <th>
-                                        {o.employeeUserProfileId != null && (o.employeeUserProfileId)}
+                                        {o.employeeUserProfileId != null && (o.employee?.firstName + " " + o.employee?.lastName)}
                                         {o.employeeUserProfileId === null && o.canceled && ("-")}
                                         {o.employeeUserProfileId === null && !o.canceled && ("N/A")}
                                     </th>

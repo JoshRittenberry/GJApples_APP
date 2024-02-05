@@ -110,7 +110,7 @@ export const EditOrder = ({ loggedInUser }) => {
                     </div>
                     <h5>Customer #{order.customerUserProfileId}</h5>
                     <div className="editorder_header_bottom">
-                        <h5>Phone: (XXX)-XXX-XXXX</h5>
+                        {/* <h5>Phone: (XXX)-XXX-XXXX</h5> */}
                         <h5>Email: xxx@xxxx.com</h5>
                     </div>
                 </header>
