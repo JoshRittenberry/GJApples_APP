@@ -1,4 +1,4 @@
-const _apiUrl = "/api/trees"
+const _apiUrl = "https://gjapples.azurewebsites.net/api/trees"
 
 export const getAllTrees = () => {
     return fetch(_apiUrl).then((res) => res.json())

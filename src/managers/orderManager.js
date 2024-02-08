@@ -1,4 +1,4 @@
-const _apiUrl = "/api/orders"
+const _apiUrl = "https://gjapples.azurewebsites.net/api/orders"
 
 export const getAllOrders = () => {
     return fetch(_apiUrl).then((res) => res.json())

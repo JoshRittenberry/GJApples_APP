@@ -1,4 +1,4 @@
-const _apiUrl = "/api/Auth";
+const _apiUrl = "https://gjapples.azurewebsites.net/api/Auth";
 
 export const login = (email, password) => {
     return fetch(_apiUrl + "/login", {

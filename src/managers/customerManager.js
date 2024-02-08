@@ -1,13 +1,16 @@
+const _apiUrlUserProfiles = "https://gjapples.azurewebsites.net/api/userprofiles"
+const _apiUrlCustomers = "https://gjapples.azurewebsites.net/api/customers"
+
 export const getAllCustomers = () => {
-    return fetch(`/api/customers`).then((res) => res.json())
+    return fetch(_apiUrlCustomers).then((res) => res.json())
 }
 
 export const getCustomerById = (customerId) => {
-    return fetch(`/api/userprofiles/${customerId}`).then((res) => res.json())
+    return fetch(`${_apiUrlUserProfiles}/${customerId}`).then((res) => res.json())
 }
 
 export const updateCustomer = (customerId, update) => {
-    return fetch(`/api/userprofiles/${customerId}`, {
+    return fetch(`${_apiUrlUserProfiles}/${customerId}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
@@ -18,7 +21,7 @@ export const updateCustomer = (customerId, update) => {
 
 export const updateCustomerPassword = (newPassword) => {
     newPassword.password = btoa(newPassword.password)
-    return fetch(`/api/userprofiles/changepassword`, {
+    return fetch(`${_apiUrlUserProfiles}/changepassword`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
