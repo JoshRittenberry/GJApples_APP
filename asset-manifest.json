@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.27c21443.css",
-    "main.js": "/static/js/main.8a8277f5.js",
-    "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
-    "static/media/GJ-Picking-Apples.jpg": "/static/media/GJ-Picking-Apples.13aa73930c12844f3660.jpg",
-    "index.html": "/index.html",
-    "main.27c21443.css.map": "/static/css/main.27c21443.css.map",
-    "main.8a8277f5.js.map": "/static/js/main.8a8277f5.js.map",
-    "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
+    "main.css": "/GJApples_APP/static/css/main.776d26ce.css",
+    "main.js": "/GJApples_APP/static/js/main.e74ae5c2.js",
+    "static/js/787.60dd4703.chunk.js": "/GJApples_APP/static/js/787.60dd4703.chunk.js",
+    "static/media/GJ-Picking-Apples.jpg": "/GJApples_APP/static/media/GJ-Picking-Apples.13aa73930c12844f3660.jpg",
+    "index.html": "/GJApples_APP/index.html",
+    "main.776d26ce.css.map": "/GJApples_APP/static/css/main.776d26ce.css.map",
+    "main.e74ae5c2.js.map": "/GJApples_APP/static/js/main.e74ae5c2.js.map",
+    "787.60dd4703.chunk.js.map": "/GJApples_APP/static/js/787.60dd4703.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27c21443.css",
-    "static/js/main.8a8277f5.js"
+    "static/css/main.776d26ce.css",
+    "static/js/main.e74ae5c2.js"
   ]
 }
