@@ -1,7 +1,6 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://joshrittenberry.github.io/GJApples_APP/",
   "proxy": "https://gjapples.azurewebsites.net/",
   "private": true,
   "dependencies": {
