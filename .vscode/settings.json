@@ -1,8 +1,0 @@
-{
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/90c1ca37-b2a8-4fdd-8f7f-1cbdf99d1e5a/resourceGroups/GJApples_group/providers/Microsoft.Web/sites/garryjonesapples",
-    "appService.deploySubpath": "build"
-}
