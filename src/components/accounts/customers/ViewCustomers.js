@@ -87,7 +87,7 @@ export const ViewCustomers = ({ loggedInUser }) => {
                                         {screenWidth > 600 && <th>{e.email}</th>}
                                         <th>
                                             <button className="viewcustomers_body_button_edit" onClick={() => {
-                                                navigate(`/customers/edit/${e.id}`)
+                                                navigate(`/accounts/customers/edit/${e.id}`)
                                             }}>
                                                 <i className="fa-solid fa-pen-to-square"></i>
                                             </button>

@@ -41,7 +41,7 @@ export const NewCustomer = ({ setLoggedInUser }) => {
         }
 
         createCustomer(newCustomer).then(() => {
-            navigate("/customers/view")
+            navigate("/accounts/customers/view")
         })
     }
 

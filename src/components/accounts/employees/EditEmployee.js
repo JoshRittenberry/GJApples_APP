@@ -96,12 +96,12 @@ export const EditEmployee = () => {
                 <div className="editemployee_footer">
                     <Button className="editemployee_footer_button" onClick={() => {
                         updateEmployee(employeeId, update)
-                        navigate("/employees/view")
+                        navigate("/accounts/employees/view")
                     }}>
                         Submit
                     </Button>
                     <Button className="editemployee_footer_button" onClick={() => {
-                        navigate("/employees/view")
+                        navigate("/accounts/employees/view")
                     }}>
                         Cancel
                     </Button>

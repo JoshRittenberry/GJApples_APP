@@ -51,7 +51,7 @@ export const NewEmployee = ({ setLoggedInUser }) => {
         }
 
         createEmployee(newEmployee, selectedRole.name).then(() => {
-            navigate("/employees")
+            navigate("/accounts/employees/view")
         })
     }
 
