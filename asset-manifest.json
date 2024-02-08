@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GJApples_APP/static/css/main.776d26ce.css",
+    "main.js": "/GJApples_APP/static/js/main.24b33183.js",
+    "static/js/787.d5fa4d18.chunk.js": "/GJApples_APP/static/js/787.d5fa4d18.chunk.js",
+    "static/media/GJ-Picking-Apples.jpg": "/GJApples_APP/static/media/GJ-Picking-Apples.13aa73930c12844f3660.jpg",
+    "index.html": "/GJApples_APP/index.html",
+    "main.776d26ce.css.map": "/GJApples_APP/static/css/main.776d26ce.css.map",
+    "main.24b33183.js.map": "/GJApples_APP/static/js/main.24b33183.js.map",
+    "787.d5fa4d18.chunk.js.map": "/GJApples_APP/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.776d26ce.css",
+    "static/js/main.24b33183.js"
+  ]
+}
