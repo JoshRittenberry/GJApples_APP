@@ -1,7 +1,7 @@
 {
   "name": "garry-jones-apples",
   "version": "0.1.0",
-  "proxy": "https://gjapples.azurewebsites.net/",
+  "proxy": "https://gjapples.azurewebsites.net",
   "private": true,
   "engines": {
     "node": "18"
