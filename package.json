@@ -1,5 +1,6 @@
 {
-  "name": "client",
+  "homepage": "https://joshrittenberry.github.io/GJApples_APP/",
+  "name": "garry-jones-apples",
   "version": "0.1.0",
   "proxy": "https://gjapples.azurewebsites.net/",
   "private": true,
@@ -21,9 +22,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
